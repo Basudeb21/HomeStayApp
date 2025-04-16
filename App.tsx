@@ -1,8 +1,9 @@
 import { View, Text, StatusBar } from 'react-native'
 import React, { Component } from 'react'
-import Routes from './src/navigation/Routes'
 import Colors from './src/constant/Colors'
-import { Login } from './src/screens'
+import { NavigationContainer } from '@react-navigation/native';
+import Routes from './src/navigation/Routes';
+
 
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
     <View style={{ flex: 1, backgroundColor: Colors.WHITE }}>
       <StatusBar backgroundColor={Colors.THEME} />
 
-      <Login />
+      <Routes />
     </View>
   )
 }

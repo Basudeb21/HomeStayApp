@@ -2,5 +2,11 @@ export default {
     CREDENTIAL_ACTIVE_TEXT: "#030303",
     THEME: "#003b95",
     WHITE: "#FFFFFF",
-    BLUE: "#006ce4"
+    BLUE: "#006ce4",
+    ACTIVE_NAVIGATION_COLOR: "#006ce4",
+    DISABLED_NAVIGATION_COLOR: "#EAEAEA",
+    PROFILE_IMAGE_BG: "#BEE4D0",
+    DEACTIVE: "#eeeeee",
+    DARK_GRAY: "#aaaaaa",
+    DISABLED_TXT: "#2b2b2b"
 }

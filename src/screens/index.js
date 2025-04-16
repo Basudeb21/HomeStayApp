@@ -1,16 +1,13 @@
-
-
-
 // Auth Stack
 export { default as Login } from "./auth/Login/Login"
-export { default as Otp } from "./auth/Otp"
+export { default as Otp } from "./auth/otp/Otp"
 
 // Main Stack
 export { default as Home } from "./app/Home"
 export { default as HotelInfo } from "./app/HotelInfo"
 export { default as OfferedCities } from "./app/offers/OfferedCities"
 export { default as Offers } from "./app/offers/Offers"
-export { default as Profile } from "./app/Profile"
+export { default as Profile } from "./app/profile/Profile"
 export { default as Search } from "./app/Search"
 export { default as SearchResult } from "./app/SearchResult"
 export { default as Trips } from "./app/Trips"

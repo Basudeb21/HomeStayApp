@@ -12,12 +12,14 @@ import {
     OfferedCities,
     Offers
 } from "../screens";
+import BottomNavbar from "./navbar/BottomNavbar";
 
 const Stack = createNativeStackNavigator();
 
 export default function MainStack() {
     return (
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="BottomTabs" component={BottomNavbar} />
             <Stack.Screen name={navigationStrings.HOME} component={Home} />
             <Stack.Screen name={navigationStrings.HOTEL_INFO} component={HotelInfo} />
             <Stack.Screen name={navigationStrings.PROFILE} component={Profile} />
