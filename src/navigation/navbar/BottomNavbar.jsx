@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Offers, Profile, Search, Trips } from '../../screens';
+import { Offers, Profile, Search, Trips, Home } from '../../screens';
 import FontAwesome from 'react-native-vector-icons/dist/FontAwesome'
 import MaterialIcons from 'react-native-vector-icons/dist/MaterialIcons'
 import MaterialCommunityIcons from 'react-native-vector-icons/dist/MaterialCommunityIcons'
@@ -25,10 +25,10 @@ const BottomNavbar = () => {
             }}
         >
             <Tab.Screen
-                name={navigationStrings.SEARCH}
-                component={Search}
+                name={navigationStrings.HOME}
+                component={Home}
                 options={{
-                    tabBarLabel: navigationStrings.SEARCH,
+                    tabBarLabel: navigationStrings.HOME,
                     tabBarIcon: ({ focused }) => (
                         <FontAwesome
                             name="search"

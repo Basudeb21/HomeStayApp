@@ -3,7 +3,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import navigationStrings from "../constant/navigationStrings"
 
 import {
-    Home,
     HotelInfo,
     Profile,
     Search,
@@ -12,11 +11,14 @@ import {
     OfferedCities,
     Offers
 } from "../screens";
+import Home from "../screens/app/home/Home";
 import BottomNavbar from "./navbar/BottomNavbar";
 
 const Stack = createNativeStackNavigator();
 
 export default function MainStack() {
+    console.log("Home Component:", Home);
+
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="BottomTabs" component={BottomNavbar} />

@@ -8,5 +8,9 @@ export default {
     PROFILE_IMAGE_BG: "#BEE4D0",
     DEACTIVE: "#eeeeee",
     DARK_GRAY: "#aaaaaa",
-    DISABLED_TXT: "#2b2b2b"
+    DISABLED_TXT: "#2b2b2b",
+    THEME_TRANSPARENT: "#395f9d",
+    LOCATION_CONTAINER: "#e8f2fa",
+    FADE: "#A9A9A9",
+    RATINGS_BG: "#00a24e"
 }

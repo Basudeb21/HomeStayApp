@@ -3,7 +3,7 @@ export { default as Login } from "./auth/Login/Login"
 export { default as Otp } from "./auth/otp/Otp"
 
 // Main Stack
-export { default as Home } from "./app/Home"
+export { default as Home } from "./app/home/Home"
 export { default as HotelInfo } from "./app/HotelInfo"
 export { default as OfferedCities } from "./app/offers/OfferedCities"
 export { default as Offers } from "./app/offers/Offers"
