@@ -5,7 +5,7 @@ import { moderateScale, scale, verticalScale } from 'react-native-size-matters';
 const HotelListsStyles = StyleSheet.create({
     container: {
         marginVertical: verticalScale(20),
-        marginHorizontal: moderateScale(20)
+        marginStart: moderateScale(20)
     },
     mainText: {
         fontSize: scale(16),
@@ -15,12 +15,16 @@ const HotelListsStyles = StyleSheet.create({
         color: Colors.THEME
     },
     listContainer: {
-        marginTop: verticalScale(20)
+        marginTop: verticalScale(20),
+        flex: 1
+    },
+    hotelContainer: {
+        marginEnd: moderateScale(20)
     },
     listImages: {
-        width: "67%",
+        width: moderateScale(220),
         height: verticalScale(170),
-        borderRadius: scale(20)
+        borderRadius: scale(20),
     },
     hotelName: {
         fontSize: scale(16),
@@ -51,6 +55,11 @@ const HotelListsStyles = StyleSheet.create({
         fontSize: scale(10),
         textAlign: "center"
 
+    },
+    destinationImageScroll: {
+        marginVertical: verticalScale(10),
+        flexDirection: "row",
+        width: "100%"
     }
 })
 

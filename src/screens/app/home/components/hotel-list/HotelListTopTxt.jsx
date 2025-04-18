@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import HotelListsStyles from '../styles/HotelListsStyles'
+import HotelListsStyles from '../../styles/HotelListsStyles'
 
 const HotelListTopTxt = () => {
     return (

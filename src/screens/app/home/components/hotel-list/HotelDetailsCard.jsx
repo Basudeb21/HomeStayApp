@@ -1,7 +1,8 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
-import HotelListsStyles from '../styles/HotelListsStyles'
 import Ratings from './Ratings'
+import HotelListsStyles from '../../styles/HotelListsStyles'
+
 
 const HotelDetailsCard = () => {
     return (

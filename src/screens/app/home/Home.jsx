@@ -1,12 +1,18 @@
 import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import HomeScreenStyles from "./styles/HomeScreenStyles"
-import Header from './components/Header'
-import BookText from './components/BookText'
-import BookingSearchArea from './components/BookingSearchArea'
-import RecentSearch from './components/RecentSearch'
-import Destination from './components/Destination'
-import HotelLists from './components/HotelLists'
+import BookingSearchArea from './components/bookings/BookingSearchArea'
+import Destination from './components/destination/Destination'
+import BestDeals from './components/BestDeals'
+import FeaturesCard from './components/features/FeaturesCard'
+import BookText from './components/bookings/BookText'
+import RecentSearch from './components/recent/RecentSearch'
+import Header from './components/bookings/Header'
+import HotelLists from './components/hotel-list/HotelLists'
+import ReviewScreen from './components/reviews/ReviewScreen'
+
+
+
 const Home = () => {
     return (
         <ScrollView style={HomeScreenStyles.container}>
@@ -18,6 +24,9 @@ const Home = () => {
             <RecentSearch />
             <Destination />
             <HotelLists />
+            <BestDeals />
+            <FeaturesCard />
+            <ReviewScreen />
         </ScrollView>
     )
 }

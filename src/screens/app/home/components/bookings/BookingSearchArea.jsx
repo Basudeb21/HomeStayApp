@@ -1,10 +1,10 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import BookingInput from './BookingInput'
-import HomeScreenStyles from '../styles/HomeScreenStyles';
-import SearchInputStyles from '../styles/SearchInput';
+import HomeScreenStyles from '../../styles/HomeScreenStyles';
+import SearchInputStyles from '../../styles/SearchInput';
 import Feather from 'react-native-vector-icons/dist/Feather'
-import Colors from '../../../../constant/Colors';
+import Colors from '../../../../../constant/Colors';
 
 
 

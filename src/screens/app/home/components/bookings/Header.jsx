@@ -2,8 +2,8 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import Entypo from 'react-native-vector-icons/dist/Entypo'
 import AntDesign from 'react-native-vector-icons/dist/AntDesign'
-import Colors from '../../../../constant/Colors'
-import HomeScreenStyles from '../styles/HomeScreenStyles'
+import Colors from '../../../../../constant/Colors'
+import HomeScreenStyles from '../../styles/HomeScreenStyles'
 
 
 

@@ -1,7 +1,8 @@
 import { View, Text, TextInput } from 'react-native';
 import React from 'react';
-import SearchInputStyles from '../styles/SearchInput';
-import Colors from '../../../../constant/Colors';
+import Colors from '../../../../../constant/Colors';
+import SearchInputStyles from '../../styles/SearchInput';
+
 
 const BookingInput = ({
     label = "Where to?",

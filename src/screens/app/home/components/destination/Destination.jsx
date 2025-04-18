@@ -1,6 +1,6 @@
 import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
-import DestinationStyles from '../styles/DestinationsStyles'
+import DestinationStyles from '../../styles/DestinationsStyles'
 import DestinationImgs from './DestinationImgs'
 
 const Destination = () => {

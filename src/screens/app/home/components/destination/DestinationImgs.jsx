@@ -1,6 +1,6 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
-import DestinationStyles from '../styles/DestinationsStyles'
+import DestinationStyles from '../../styles/DestinationsStyles'
 
 const DestinationImgs = () => {
     return (

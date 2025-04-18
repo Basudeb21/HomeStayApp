@@ -5,7 +5,7 @@ import { moderateScale, scale, verticalScale } from 'react-native-size-matters';
 const DestinationStyles = StyleSheet.create({
     container: {
         marginTop: verticalScale(20),
-        marginHorizontal: moderateScale(20)
+        marginStart: moderateScale(20)
     },
     mainText: {
         fontSize: scale(14),
@@ -20,7 +20,7 @@ const DestinationStyles = StyleSheet.create({
     destinationImageScroll: {
         marginVertical: verticalScale(10),
         flex: 1,
-        flexDirection: "row"
+        flexDirection: "row",
     }
 
 });

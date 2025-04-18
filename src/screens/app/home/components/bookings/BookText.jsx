@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import HomeScreenStyles from '../styles/HomeScreenStyles'
+import HomeScreenStyles from '../../styles/HomeScreenStyles'
 
 const BookText = () => {
     return (
